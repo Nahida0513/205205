@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <title>Blog - Gemsun</title>
+
+    <!-- STYLES -->
+
+    <!-- Bootstrap v5.0.2 -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- SCRIPT -->
+    <script src="https://kit.fontawesome.com/4885b8d773.js"></script>
+
+    <!-- FAVICON -->
+    <link href="favicon.png" rel="shortcut icon" type="image/png" />
+
+</head>
+
+<body onload="closePreloader()">
+
+    <!-- PRELOADER -->
+
+    <div class="ktx-preloader" id="preloader">
+        <div class="middle">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+            <div class="bar bar4"></div>
+            <div class="bar bar5"></div>
+            <div class="bar bar6"></div>
+            <div class="bar bar7"></div>
+            <div class="bar bar8"></div><br><br>
+            <h2 style="text-align: center;color: orange;"><i class="fas fa-gem"></i> <br>GEMSUN</h2>
+        </div>
+    </div>
+
+    <!-- KTX-MENU -->
+
+    <div class="ktx-menu" id="yuiyuyyo">
+        <div class="container">
+            <div class="tkx-logo">
+                <h2 onclick="homepage()"><i class="fas fa-gem" style="color: orange;"></i> Gemsun</h2>
+            </div>
+
+            <div class="menu-btn">
+                <a href="#" class="d-md-block d-lg-none vl-mb-m" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="#" class="d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick='showDialog()'>
+                    <i class="fas fa-bars"></i> MENU
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="ktx-menu ldojdoj" style="z-index: 999999;">
+                        <div class="container">
+                            <div class="tkx-logo">
+                                <h2 onclick="homepage()"><i class="fas fa-gem" style="color: orange;"></i> Gemsun</h2>
+                            </div>
+
+                            <div class="menu-btn">
+                                <a href="#" class=" vl-mb-m" data-bs-dismiss="modal" onClick='closeDialog()'>
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div><br><br>
+
+                    <!-- ************** -->
+                    <div class="container">
+
+                        <div class="row align-items-center ktx-mt-100">
+                            <div class="col center-items">
+                                <ul class="ktx-menu-items">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="portfolio.html">Portfolio</a></li>
+                                    <li><a href="blog.html" class="kt-active">Blog</a></li>
+                                    <li><a href="contacts.html">Contacts</a></li>
+                                </ul>
+                            </div>
+                            <div class="col right-items">
+                                <h2>Email:</h2>
+                                <ul class="ktx-menu-items-r">
+                                    <li><a href="#">exemple@mail.com</a></li>
+                                </ul>
+
+                                <h2>Adress:</h2>
+                                <ul class="ktx-menu-items-r">
+                                    <li><a href="#">321, Royal Square, New-York</a></li>
+                                </ul>
+                                <h2>Social:</h2>
+                                <ul class="ktx-menu-items-r">
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">Pinterest</a></li>
+                                    <li><a href="#">Behance</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MARGIN -->
+
+    <!-- start cursor -->
+
+    <div class="cursor"></div>
+
+    <!-- ***************************************************************** -->
+
+    <div class="simple-header">
+        <div class="container">
+            <div class="row">
+                <h2 class="sim-t">News<span>.</span></h2><br>
+                <p class="sim-h"><a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> Blog</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***************************************************************** -->
+
+    <!--
+        ****************************************************
+            NEWS SECTION
+        ****************************************************
+    -->
+    <section id="section-6">
+        <div class="container">
+            <div class="row vl-row">
+                <div class="row mt-50 slike">
+
+                    <div class="card col-md-12 col-lg-4" data-aos="fade-up">
+                        <a href="blog-article.html">
+                            <img src="img/blog/blog2.jpg" class="card-img-top blog-img" alt="blog">
+                        </a>
+                        <div class="card-body blog-card">
+                            <a href="blog-article.html" class="team-text texa">Top Graphic Design Topics</a><br><br>
+                            <p>
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its...
+                            </p>
+
+                            <div class="row row-cols-auto" style="margin-top: 5px;">
+                                <p class="bl-soc">Share:</p>
+                                <div class="col">
+                                    <a href="# " class="social-ab "><i class="fab fa-facebook-f "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-instagram "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-twitter "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-google-plus-g"></i></a>
+                                </div>
+                            </div><a href="blog-article.html" class="ktx-btn d-block text-center">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card col-md-12 col-lg-4" data-aos="fade-up">
+                        <a href="blog-article.html">
+                            <img src="img/blog/blog1.jpg" class="card-img-top blog-img" alt="blog">
+                        </a>
+                        <div class="card-body blog-card">
+                            <a href="blog-article.html" class="team-text texa">How To Create Great Logo</a><br><br>
+                            <p>
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its...
+                            </p>
+
+                            <div class="row row-cols-auto" style="margin-top: 5px;">
+                                <p class="bl-soc">Share:</p>
+                                <div class="col">
+                                    <a href="# " class="social-ab "><i class="fab fa-facebook-f "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-instagram "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-twitter "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-google-plus-g"></i></a>
+                                </div>
+                            </div><a href="blog-article.html" class="ktx-btn d-block text-center">Read more</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card col-md-12 col-lg-4" data-aos="fade-up">
+                        <a href="blog-article.html">
+                            <img src="img/blog/blog3.png" class="card-img-top blog-img" alt="blog">
+                        </a>
+                        <div class="card-body blog-card">
+                            <a href="blog-article.html" class="team-text texa">Marketing Strategy Tips</a><br><br>
+                            <p>
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its...
+                            </p>
+
+                            <div class="row row-cols-auto" style="margin-top: 5px;">
+                                <p class="bl-soc">Share:</p>
+                                <div class="col">
+                                    <a href="# " class="social-ab "><i class="fab fa-facebook-f "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-instagram "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-twitter "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-google-plus-g"></i></a>
+                                </div>
+                            </div><a href="blog-article.html" class="ktx-btn d-block text-center">Read more</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card col-md-12 col-lg-4" data-aos="fade-up">
+                        <a href="blog-article.html">
+                            <img src="img/blog/blog4.jpg" class="card-img-top blog-img" alt="blog">
+                        </a>
+                        <div class="card-body blog-card">
+                            <a href="blog-article.html" class="team-text texa">Create a WordPress Theme</a><br><br>
+                            <p>
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its...
+                            </p>
+
+                            <div class="row row-cols-auto" style="margin-top: 5px;">
+                                <p class="bl-soc">Share:</p>
+                                <div class="col">
+                                    <a href="# " class="social-ab "><i class="fab fa-facebook-f "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-instagram "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-twitter "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-google-plus-g"></i></a>
+                                </div>
+                            </div><a href="blog-article.html" class="ktx-btn d-block text-center">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-12 col-lg-4" data-aos="fade-up">
+                        <a href="blog-article.html">
+                            <img src="img/blog/blog5.jpg" class="card-img-top blog-img" alt="blog">
+                        </a>
+                        <div class="card-body blog-card">
+                            <a href="blog-article.html" class="team-text texa">Music for Programming</a><br><br>
+                            <p>
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its...
+                            </p>
+
+                            <div class="row row-cols-auto" style="margin-top: 5px;">
+                                <p class="bl-soc">Share:</p>
+                                <div class="col">
+                                    <a href="# " class="social-ab "><i class="fab fa-facebook-f "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-instagram "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-twitter "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-google-plus-g"></i></a>
+                                </div>
+                            </div><a href="blog-article.html" class="ktx-btn d-block text-center">Read more</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-md-12 col-lg-4" data-aos="fade-up">
+                        <a href="blog-article.html">
+                            <img src="img/blog/blog6.jpg" class="card-img-top blog-img" alt="blog">
+                        </a>
+                        <div class="card-body blog-card">
+                            <a href="blog-article.html" class="team-text texa">Whats is NFT?</a><br><br>
+                            <p>
+                                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its...
+                            </p>
+
+                            <div class="row row-cols-auto" style="margin-top: 5px;">
+                                <p class="bl-soc">Share:</p>
+                                <div class="col">
+                                    <a href="# " class="social-ab "><i class="fab fa-facebook-f "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-instagram "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-twitter "></i></a>
+                                </div>
+                                <div class="col ">
+                                    <a href="# " class="social-ab "><i class="fab fa-google-plus-g"></i></a>
+                                </div>
+                            </div><a href="blog-article.html" class="ktx-btn d-block text-center">Read more</a>
+                        </div>
+                    </div>
+
+
+                    <div class="pagination-kt">
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                    </div>
+
+                    <h2 class="d-none">eee</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--
+        ****************************************************
+            FOOTER
+        ****************************************************
+    -->
+
+    <div class="footer">
+        <div class="conainer">
+            <div class="row">
+                <div class="col align-self-center">
+                    <p class="foo-text">&copy; <b><script>document.write(new Date().getFullYear())</script></b>. All rights reserved. <a target="_blank" href="https://www.mobanwang.com/" title="网站模板" class="text-white">网站模板</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="scroll-top-btn ktx-btn" id="scroll-top-btn"><i class="fas fa-chevron-up"></i></a>
+    <!-- SCRIPTS -->
+
+    <!-- jQuery JavaScript Library v3.5.1 -->
+    <script src="js/jquery/jquery.min.js "></script>
+
+    <!-- Bootstrap v4.5.3 -->
+    <script src="js/bootstrap.js "></script>
+
+    <!-- Custom -->
+    <script src="js/custom.js "></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+    <!-- SCRIPTS -->
+
+</body>
+
+</html>

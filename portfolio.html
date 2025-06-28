@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <title>Portfolio - Gemsun</title>
+
+    <!-- STYLES -->
+
+    <!-- Bootstrap v5.0.2 -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- SCRIPT -->
+    <script src="https://kit.fontawesome.com/4885b8d773.js"></script>
+
+    <!-- FAVICON -->
+    <link href="favicon.png" rel="shortcut icon" type="image/png" />
+
+</head>
+
+<body onload="closePreloader()">
+
+    <!-- PRELOADER -->
+
+    <div class="ktx-preloader" id="preloader">
+        <div class="middle">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+            <div class="bar bar4"></div>
+            <div class="bar bar5"></div>
+            <div class="bar bar6"></div>
+            <div class="bar bar7"></div>
+            <div class="bar bar8"></div><br><br>
+            <h2 style="text-align: center;color: orange;"><i class="fas fa-gem"></i> <br>GEMSUN</h2>
+        </div>
+    </div>
+
+    <!-- KTX-MENU -->
+
+    <div class="ktx-menu" id="yuiyuyyo">
+        <div class="container">
+            <div class="tkx-logo">
+                <h2 onclick="homepage()"><i class="fas fa-gem" style="color: orange;"></i> Gemsun</h2>
+            </div>
+
+            <div class="menu-btn">
+                <a href="#" class="d-md-block d-lg-none vl-mb-m" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="#" class="d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick='showDialog()'>
+                    <i class="fas fa-bars"></i> MENU
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="ktx-menu ldojdoj" style="z-index: 999999;">
+                        <div class="container">
+                            <div class="tkx-logo">
+                                <h2 onclick="homepage()"><i class="fas fa-gem" style="color: orange;"></i> Gemsun</h2>
+                            </div>
+
+                            <div class="menu-btn">
+                                <a href="#" class=" vl-mb-m" data-bs-dismiss="modal" onClick='closeDialog()'>
+                                    <i class="fas fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div><br><br>
+
+                    <!-- ************** -->
+                    <div class="container">
+
+                        <div class="row align-items-center ktx-mt-100">
+                            <div class="col center-items">
+                                <ul class="ktx-menu-items">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="portfolio.html" class="kt-active">Portfolio</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="contacts.html">Contacts</a></li>
+                                </ul>
+                            </div>
+                            <div class="col right-items">
+                                <h2>Email:</h2>
+                                <ul class="ktx-menu-items-r">
+                                    <li><a href="#">exemple@mail.com</a></li>
+                                </ul>
+
+                                <h2>Adress:</h2>
+                                <ul class="ktx-menu-items-r">
+                                    <li><a href="#">321, Royal Square, New-York</a></li>
+                                </ul>
+                                <h2>Social:</h2>
+                                <ul class="ktx-menu-items-r">
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">Pinterest</a></li>
+                                    <li><a href="#">Behance</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MARGIN -->
+
+    <!-- start cursor -->
+
+    <div class="cursor"></div>
+
+    <!-- ***************************************************************** -->
+
+    <div class="simple-header">
+        <div class="container">
+            <div class="row">
+                <h2 class="sim-t">Portfolio<span>.</span></h2><br>
+                <p class="sim-h"><a href="index.html">Home</a> <i class="fas fa-chevron-right"></i> Portfolio</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***************************************************************** -->
+
+    <!--
+        ****************************************************
+            PORTFOLIO SECTION
+        ****************************************************
+    -->
+
+    <section id="section-3">
+        <div class="container">
+            <div class="row vl-row">
+                <div class="gallery-container" style="padding-top: 30px; margin-left: -3%;" data-aos="fade-up">
+
+                    <div class="tz-gallery">
+
+                        <div class="row row-cols-auto">
+
+                            <div class="col-md-12 col-lg-6" data-aos="flip-up" style="padding: 10px;">
+                                <a class="lightbox" href="img/portfolio/p1.jpg">
+
+                                    <h3 class="img-text">Last Project<br><span>Branding</span></h3>
+
+                                    <img src="img/portfolio/p1.jpg" class="img-port" alt="Portfolio">
+
+                                </a>
+                            </div>
+                            <div class="col-md-12 col-lg-6" data-aos="flip-up" style="padding: 10px;">
+                                <a class="lightbox" href="img/portfolio/p2.jpg">
+
+                                    <h3 class="img-text">Sport Collection<br><span>Branding</span></h3>
+                                    <img src="img/portfolio/p2.jpg" class="img-port" alt="Portfolio">
+                                </a>
+                            </div>
+                            <div class="col-md-12 col-lg-4" data-aos="flip-up" style="padding: 10px;">
+                                <a class="lightbox" href="img/portfolio/p3.jpg">
+
+                                    <h3 class="img-text">Actors Collection<br><span>Branding</span></h3>
+                                    <img src="img/portfolio/p3.jpg" class="img-port" alt="Portfolio">
+                                </a>
+                            </div>
+                            <div class="col-md-12 col-lg-4" data-aos="flip-up" style="padding: 10px;">
+                                <a class="lightbox" href="img/portfolio/p4.jpg">
+
+                                    <h3 class="img-text">Mocup Collection<br><span>Branding</span></h3>
+                                    <img src="img/portfolio/p4.jpg" class="img-port" alt="Portfolio">
+                                </a>
+                            </div>
+                            <div class="col-md-12 col-lg-4" data-aos="flip-up" style="padding: 10px;">
+                                <a class="lightbox" href="img/portfolio/p5.jpg">
+
+                                    <h3 class="img-text">Best Collection<br><span>Branding</span></h3>
+                                    <img src="img/portfolio/p5.jpg" class="img-port" alt="Portfolio">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--
+        ****************************************************
+            FOOTER
+        ****************************************************
+    -->
+
+    <div class="footer">
+        <div class="conainer">
+            <div class="row">
+                <div class="col align-self-center">
+                    <p class="foo-text">&copy; <b><script>document.write(new Date().getFullYear())</script></b>. All rights reserved. <a target="_blank" href="https://www.mobanwang.com/" title="网站模板" class="text-white">网站模板</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="scroll-top-btn ktx-btn" id="scroll-top-btn"><i class="fas fa-chevron-up"></i></a>
+    <!-- SCRIPTS -->
+
+    <!-- jQuery JavaScript Library v3.5.1 -->
+    <script src="js/jquery/jquery.min.js "></script>
+
+    <!-- Bootstrap v4.5.3 -->
+    <script src="js/bootstrap.js "></script>
+
+    <!-- Custom -->
+    <script src="js/custom.js "></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+    <!-- SCRIPTS -->
+
+</body>
+
+</html>
